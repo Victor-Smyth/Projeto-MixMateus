@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Estoque">
+  <grid id="27dc6" binding="estoque" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="10" bottom="0" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14346163"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="1cc2b" binding="toolbar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9803158"/>
+          <borderPainted value="true"/>
+          <enabled value="true"/>
+          <floatable value="true"/>
+          <orientation value="0"/>
+          <rollover value="false"/>
+        </properties>
+        <clientProperties>
+          <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+        <border type="none" title-justification="4"/>
+        <children>
+          <component id="cfb42" class="javax.swing.JLabel" binding="menu">
+            <constraints/>
+            <properties>
+              <icon value="img/menu.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <component id="6309f" class="javax.swing.JLabel" binding="logo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="img/logo.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="9a8fe" binding="scrollPane">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14346163"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="265dc" class="javax.swing.JTable" binding="tabelaEstoque">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <font name="Arial" size="20"/>
+              <gridColor color="-16777216"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="e69da" class="javax.swing.JButton" binding="excluir">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5099742"/>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Excluir"/>
+        </properties>
+      </component>
+      <component id="42685" class="javax.swing.JButton" binding="cadastro">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5099742"/>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Novo produto"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

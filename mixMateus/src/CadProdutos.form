@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CadProdutos">
+  <grid id="27dc6" binding="cadProdutos" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="10" bottom="0" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14346163"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="956f4" binding="toolbar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9803158"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="22023" class="javax.swing.JLabel" binding="menu">
+            <constraints/>
+            <properties>
+              <icon value="img/menu.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <component id="529c5" class="javax.swing.JLabel" binding="logo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="img/logo.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3bf6b" class="javax.swing.JLabel" binding="titulo">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="30" style="1"/>
+          <foreground color="-1"/>
+          <text value="Cadastre o produto"/>
+        </properties>
+      </component>
+      <component id="f0745" class="javax.swing.JButton" binding="cadastrarProdutoButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5099742"/>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Cadastrar Produto"/>
+        </properties>
+      </component>
+      <component id="a98ce" class="javax.swing.JLabel" binding="labelnome">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Digite o nome do produto:"/>
+        </properties>
+      </component>
+      <component id="c20ff" class="javax.swing.JTextField" binding="nomeProduto">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cf852" class="javax.swing.JLabel" binding="labelpreco">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Digite o preço do produto:"/>
+        </properties>
+      </component>
+      <component id="5f051" class="javax.swing.JTextField" binding="preco">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dad02" class="javax.swing.JLabel" binding="labelquantidade">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20" style="1"/>
+          <foreground color="-1"/>
+          <text value="Digite a quantidade do produto:"/>
+        </properties>
+      </component>
+      <component id="19fa3" class="javax.swing.JTextField" binding="quantidade">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
